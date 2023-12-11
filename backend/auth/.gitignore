@@ -1,0 +1,6 @@
+# prisma
+**/db/migrations
+**/db/generated
+
+# volumes
+db/volume

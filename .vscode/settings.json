@@ -1,0 +1,31 @@
+{
+  "editor.rulers": [80, 100],
+  "editor.renderWhitespace": "boundary",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.formatOnSave": true,
+  "editor.formatOnType": false,
+  "editor.selectionHighlight": true,
+  "editor.tabSize": 2,
+  "[json]": {
+    "editor.tabSize": 2
+  },
+  "[html]": {
+    "editor.tabSize": 2,
+    "editor.suggest.insertMode": "insert",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.tabSize": 2
+  },
+  "[markdown]": {
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "off"
+    },
+    "editor.formatOnSave": false
+  }
+}

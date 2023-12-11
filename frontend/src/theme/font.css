@@ -1,0 +1,127 @@
+.vb-theme {
+  --s-font-h1: calc(var(--s-font-scale) * 3rem);
+  --s-font-h1-lh: calc(var(--s-font-h1) * (56 / 48));
+  --s-font-h2: calc(var(--s-font-scale) * 2rem);
+  --s-font-h2-lh: calc(var(--s-font-h2) * (40 / 32));
+  --s-font-h3: calc(var(--s-font-scale) * 1.5rem);
+  --s-font-h3-lh: calc(var(--s-font-h3) * (32 / 24));
+  --s-font-h4: calc(var(--s-font-scale) * 1.25rem);
+  --s-font-h4-lh: calc(var(--s-font-h4) * (24 / 20));
+  --s-font-h5: calc(var(--s-font-scale) * 1rem);
+  --s-font-h5-lh: calc(var(--s-font-h5) * (20 / 16));
+  --s-font-h6: calc(var(--s-font-scale) * 0.875rem);
+  --s-font-h6-lh: calc(var(--s-font-h6) * (18 / 14));
+  --s-font-body-lg: calc(var(--s-font-scale) * 1rem);
+  --s-font-body-lg-lh: calc(var(--s-font-body-lg) * (22 / 16));
+  --s-font-body-md: calc(var(--s-font-scale) * 0.875rem);
+  --s-font-body-md-lh: calc(var(--s-font-body-md) * (20 / 14));
+  --s-font-body-sm: calc(var(--s-font-scale) * 0.75rem);
+  --s-font-body-sm-lh: calc(var(--s-font-body-sm) * (16 / 12));
+  --s-font-body-xs: calc(var(--s-font-scale) * 0.675rem);
+  --s-font-body-xs-lh: calc(var(--s-font-body-xs) * (14 / 10));
+  --s-font-label-md: calc(var(--s-font-scale) * 0.75rem);
+  --s-font-label-md-lh: calc(var(--s-font-label-md) * (16 / 12));
+  --s-font-label-sm: calc(var(--s-font-scale) * 0.625rem);
+  --s-font-label-sm-lh: calc(var(--s-font-label-sm) * (14 / 10));
+
+  color: var(--c-fg-black);
+}
+
+.vb-theme .vb-font-primary {
+  font-family: 'Inter', sans-serif;
+}
+
+.vb-theme .vb-font-secondary {
+  font-family: 'Times New Roman', serif;
+}
+
+.vb-theme .vb-font-primary-h1 {
+  font-size: var(--s-font-h1);
+  line-height: var(--s-font-h1-lh);
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+}
+
+.vb-theme .vb-font-primary-h2 {
+  font-size: var(--s-font-h2);
+  line-height: var(--s-font-h2-lh);
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+}
+
+.vb-theme .vb-font-primary-h3 {
+  font-size: var(--s-font-h3);
+  line-height: var(--s-font-h3-lh);
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+}
+
+.vb-theme .vb-font-primary-h4 {
+  font-size: var(--s-font-h4);
+  line-height: var(--s-font-h4-lh);
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+}
+
+.vb-theme .vb-font-primary-h5 {
+  font-size: var(--s-font-h5);
+  line-height: var(--s-font-h5-lh);
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+}
+
+.vb-theme .vb-font-primary-h6 {
+  font-size: var(--s-font-h6);
+  line-height: var(--s-font-h6-lh);
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+}
+
+.vb-theme .vb-font-primary-body-lg {
+  font-size: var(--s-font-body-lg);
+  line-height: var(--s-font-body-lg-lh);
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+}
+
+.vb-theme .vb-font-primary-body-md {
+  font-size: var(--s-font-body-md);
+  line-height: var(--s-font-body-md-lh);
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+}
+
+.vb-theme .vb-font-primary-label-md {
+  font-size: var(--s-font-label-md);
+  line-height: var(--s-font-label-md-lh);
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+}
+
+.vb-theme .vb-font-primary-label-sm {
+  font-size: var(--s-font-label-sm);
+  line-height: var(--s-font-label-sm-lh);
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+}
+
+.vb-theme .vb-font-secondary-body-lg {
+  font-size: var(--s-font-body-lg);
+  line-height: var(--s-font-body-lg-lh);
+  font-weight: 400;
+  font-family: 'Times New Roman', serif;
+}
+
+.vb-theme .vb-font-secondary-body-sm {
+  font-size: var(--s-font-body-sm);
+  line-height: var(--s-font-body-sm-lh);
+  font-weight: 400;
+  font-family: 'Times New Roman', serif;
+}
+
+.vb-theme .vb-font-secondary-body-xs {
+  font-size: var(--s-font-body-xs);
+  line-height: var(--s-font-body-xs-lh);
+  font-weight: 400;
+  font-family: 'Times New Roman', serif;
+}

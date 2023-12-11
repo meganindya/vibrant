@@ -1,0 +1,27 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "./generated"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("AUTH_DB_POSTGRES_CONN")
+}
+
+// -- User ---------------------------------------------------------------------
+
+enum UserRole {
+  ADMIN
+  PRIVILEGED
+  PUBLIC
+}
+
+model User {
+  uuid  String   @id @db.Uuid
+  hash  String   @db.VarChar(64)
+  role  UserRole
+  uname String   @db.VarChar(64)
+  fname String   @db.VarChar(64)
+  mname String   @db.VarChar(64)
+  lname String   @db.VarChar(64)
+}

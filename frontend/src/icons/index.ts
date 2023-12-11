@@ -1,0 +1,11 @@
+export { default as IconBulb } from './Bulb.vue';
+export { default as IconCheck } from './Check.vue';
+export { default as IconCopy } from './Copy.vue';
+export { default as IconDocument } from './Document.vue';
+export { default as IconGraph } from './Graph.vue';
+export { default as IconList } from './List.vue';
+export { default as IconLogo } from './Logo.vue';
+export { default as IconPlus } from './Plus.vue';
+export { default as IconShare } from './Share.vue';
+export { default as IconTimes } from './Times.vue';
+export { default as IconTrash } from './Trash.vue';

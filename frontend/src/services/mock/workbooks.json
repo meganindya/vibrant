@@ -1,0 +1,46 @@
+{
+  "owned": [
+    {
+      "uuid": "b1b2500e-e083-4603-99c2-64aa72b73270",
+      "name": "Workbook 1",
+      "dateCreate": "2023-09-01",
+      "dateModify": "2023-11-03",
+      "shared": [
+        "George Burdell",
+        "David Rudman"
+      ]
+    },
+    {
+      "uuid": "89fdeeeb-f1ea-4175-8520-5a5b6888ae59",
+      "name": "Workbook 2",
+      "dateCreate": "2023-08-02",
+      "dateModify": "2023-11-02",
+      "shared": []
+    },
+    {
+      "uuid": "2f45b0a4-e578-4d07-8f48-3c0d3816d031",
+      "name": "Workbook 3",
+      "dateCreate": "2023-07-03",
+      "dateModify": "2023-11-01",
+      "shared": [
+        "David Rudman"
+      ]
+    }
+  ],
+  "shared": [
+    {
+      "uuid": "3e385dbb-f384-455b-83ef-21cbe12284fb",
+      "name": "Workbook 6",
+      "dateCreate": "2023-09-01",
+      "dateModify": "2023-11-02",
+      "owner": "David Rudman"
+    },
+    {
+      "uuid": "e5da27b8-7cb2-432c-93eb-1d69683bf80e",
+      "name": "Workbook 7",
+      "dateCreate": "2023-08-02",
+      "dateModify": "2023-11-01",
+      "owner": "George Burdell"
+    }
+  ]
+}

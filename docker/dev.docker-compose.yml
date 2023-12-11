@@ -1,0 +1,27 @@
+version: '3.9'
+services:
+  auth-db-postgres:
+    image: postgres:alpine
+    container_name: ${DOCKER_PROJECT}-auth-db-postgres
+    restart: always
+    environment:
+      POSTGRES_USER:      ${AUTH_DB_POSTGRES_USERNAME}
+      POSTGRES_PASSWORD:  ${AUTH_DB_POSTGRES_PASSWORD}
+      POSTGRES_DB:        ${AUTH_DB_POSTGRES_DATABASE}
+    ports:
+      - ${AUTH_DB_POSTGRES_PORT}:5432
+    volumes:
+      - ../backend/auth/db/volume/postgres/data:/var/lib/postgresql/data
+
+  auth-db-adminer:
+    depends_on:
+      - auth-db-postgres
+    image: adminer:latest
+    container_name: ${DOCKER_PROJECT}-auth-db-adminer
+    restart: always
+    ports:
+      - ${AUTH_DB_ADMINER_PORT}:8080
+
+networks:
+  default:
+    name: ${DOCKER_PROJECT}
